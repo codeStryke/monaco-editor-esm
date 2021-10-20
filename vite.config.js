@@ -12,5 +12,10 @@ export default defineConfig({
       formats: ['es'],
       fileName: (format) => `monaco-editor.esm.js`,
     },
+    rollupOptions: {
+      output: {
+        namespaceToStringTag: false,
+      },
+    }
   },
 })
