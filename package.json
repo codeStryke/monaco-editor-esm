@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "monaco editor esm build",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "vite build",
+    "postbuild":"node post-build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
