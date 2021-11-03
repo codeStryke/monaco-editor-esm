@@ -36,6 +36,7 @@ const filesToKeep = [
   'monaco-editor',
   'sql.js', // this is the only language we support for now
   fontFaceFileName,
+  'style.css', // this is the original style.css file
 ];
 
 const files = readdirSync('./dist');
