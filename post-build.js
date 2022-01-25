@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, readdirSync, unlinkSync } from 'fs';
 // 1. font-family name
 // 2. data
 // 3. format
-const fontFaceRegex = /@font-face{font-family:"(\w+)".*url\((data:.*)\)\s(format\("\w+"\))}/g;
+const fontFaceRegex = /@font-face{font-family:(\w+).*url\((data:.*)\)\s(format\("\w+"\))}/g;
 const fontFaceFileName = 'style.css.js';
 
 const style =  readFileSync('./dist/style.css', 'utf8');
