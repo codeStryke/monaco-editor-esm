@@ -1,10 +1,10 @@
 /*!-----------------------------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
- * Version: 0.31.1(337587859b1c171314b40503171188b6cea6a32a)
+ * Version: 0.34.0(9d278685b078158491964f8fd7ac9628fffa0f30)
  * Released under the MIT license
  * https://github.com/microsoft/monaco-editor/blob/main/LICENSE.txt
  *-----------------------------------------------------------------------------*/
-var conf = {
+var E = {
   comments: {
     lineComment: "--",
     blockComment: ["/*", "*/"]
@@ -28,11 +28,10 @@ var conf = {
     { open: '"', close: '"' },
     { open: "'", close: "'" }
   ]
-};
-var language = {
+}, T = {
   defaultToken: "",
   tokenPostfix: ".sql",
-  ignoreCase: true,
+  ignoreCase: !0,
   brackets: [
     { open: "[", close: "]", token: "delimiter.square" },
     { open: "(", close: ")", token: "delimiter.parenthesis" }
@@ -813,4 +812,7 @@ var language = {
     ]
   }
 };
-export { conf, language };
+export {
+  E as conf,
+  T as language
+};

@@ -14,7 +14,16 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        namespaceToStringTag: false,
+        chunkFileNames: '[name].js',
+        assetFileNames: '[name][extname]',
+        generatedCode: {
+          preset: 'es2015',
+          arrowFunctions: true,
+          constBindings: true,
+          objectShorthand: true,
+          reservedNamesAsProps: false,
+          symbols: true,
+        }
       },
     }
   },

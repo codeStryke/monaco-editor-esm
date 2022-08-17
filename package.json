@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "monaco-editor": "^0.31.1",
-    "vite": "^2.7.13"
+    "monaco-editor": "^0.34.0",
+    "vite": "^3.0.8"
   }
 }
