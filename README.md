@@ -1,8 +1,6 @@
 # monaco-editor-esm
 ES Module version of [monaco-editor](https://github.com/microsoft/monaco-editor)
 
-### Note
-Currently ony `SQL` is supported. To support other languages, modify the `post-build.js` file.
 
 ### Build
 ```
