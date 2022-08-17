@@ -30,6 +30,7 @@ monacoEditorFontFace.load()
 writeFileSync('./dist/monaco-editor-font-face.js', fontFaceFile);
 
 // delete unused files
+/*
 const filesToKeep = [
   'index.js',
   'editor.worker', // this file will have an generated hash
@@ -51,3 +52,4 @@ files.forEach(file => {
     unlinkSync(`./dist/${file}`);
   }
 });
+*/
