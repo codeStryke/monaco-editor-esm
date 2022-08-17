@@ -1,1 +1,4 @@
-export { a as default } from "./index.js";
+import { a as f } from "./index.js";
+export {
+  f as default
+};
