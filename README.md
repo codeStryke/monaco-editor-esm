@@ -11,5 +11,6 @@ The ES version of `monaco-editor` is generated in the  `/dist/` folder. Copy the
 
 ### Test
 ```
-npm run build
+npm run test
 ```
+then open `http://localhost:3000/test/` in your browser.

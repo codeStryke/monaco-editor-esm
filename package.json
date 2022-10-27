@@ -7,7 +7,8 @@
   "scripts": {
     "build": "vite build",
     "postbuild": "node post-build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playground": "npx http-server ./  --port 3000"
   },
   "license": "MIT",
   "dependencies": {
